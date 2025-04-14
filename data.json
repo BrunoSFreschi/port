@@ -1,0 +1,58 @@
+{
+    "personal": {
+      "name": "Bruno S. Freschi",
+      "role": "Desenvolvedor Full Stack",
+      "description": "Desenvolvedor apaixonado por criar soluções inovadoras e eficientes com código limpo e boas práticas.",
+      "image": "https://avatars.githubusercontent.com/u/89789210?v=4",
+      "email": "bruno@example.com"
+    },
+    "about": {
+      "paragraphs": [
+        "Olá! Meu nome é Bruno Freschi e sou um desenvolvedor full stack com experiência em diversas tecnologias modernas.",
+        "Minha jornada na programação começou quando eu era adolescente, criando scripts simples para automatizar tarefas. Desde então, meu amor pelo desenvolvimento só cresceu.",
+        "Atualmente, me concentro em criar aplicações web robustas e escaláveis, sempre buscando aprender novas tecnologias e melhorar minhas habilidades.",
+        "Quando não estou codando, gosto de contribuir para projetos open source, aprender sobre novas tecnologias e compartilhar conhecimento com a comunidade."
+      ],
+      "skills": {
+        "frontend": ["JavaScript", "TypeScript", "React", "Next.js", "HTML/CSS", "Tailwind"],
+        "backend": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB"],
+        "other": ["Git", "Docker", "SCRUM", "Linux", "CI/CD"]
+      }
+    },
+    "social": {
+      "GitHub": "https://github.com/BrunoSFreschi",
+      "LinkedIn": "https://www.linkedin.com/in/brunofreschi",
+      "Twitter": "https://twitter.com/brunofreschi",
+      "Email": "mailto:bruno@example.com"
+    },
+    "projects": [
+      {
+        "name": "Chatbot com IA",
+        "description": "Um chatbot inteligente desenvolvido com Python e técnicas de processamento de linguagem natural para interação humana.",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/brunosfreschi.github.io/main/assets/img/chatbot.png",
+        "technologies": ["Python", "NLTK", "Machine Learning"],
+        "links": {
+          "code": "https://github.com/BrunoSFreschi/chatbot-ia"
+        }
+      },
+      {
+        "name": "Sistema E-commerce",
+        "description": "Plataforma completa de e-commerce com carrinho de compras, checkout e painel administrativo.",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/brunosfreschi.github.io/main/assets/img/ecommerce.png",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
+        "links": {
+          "code": "https://github.com/BrunoSFreschi/ecommerce-system"
+        }
+      },
+      {
+        "name": "Gerenciador de Tarefas",
+        "description": "Aplicativo para gerenciamento de tarefas com autenticação, categorias e lembretes.",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/brunosfreschi.github.io/main/assets/img/taskmanager.png",
+        "technologies": ["Next.js", "TypeScript", "Firebase"],
+        "links": {
+          "code": "https://github.com/BrunoSFreschi/task-manager",
+          "demo": "https://taskmanager-bruno.vercel.app/"
+        }
+      }
+    ]
+  }
