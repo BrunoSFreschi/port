@@ -16,7 +16,7 @@
       "skills": {
         "frontend": ["JavaScript", "TypeScript", "React", "Next.js", "HTML/CSS", "Tailwind"],
         "backend": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "RabbitMQ"],
-        "other": ["Git", "Docker", "SCRUM", "Linux", "CI/CD"]
+        "other": ["Git", "Docker", "SCRUM", "Linux", "Sql Server", "MySql", "CI/CD"]
       }
     },
     "social": {
