@@ -1,15 +1,14 @@
-// Load data from JSON file
+
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        // Personal Information
         document.getElementById('user-name').textContent = data.personal.name;
         document.getElementById('user-role').textContent = data.personal.role;
         document.getElementById('user-description').textContent = data.personal.description;
         document.getElementById('user-image').src = data.personal.image;
         document.getElementById('footer-name').textContent = data.personal.name;
 
-        // About Section
+        
         const aboutText = document.getElementById('about-text');
         data.about.paragraphs.forEach(paragraph => {
             const p = document.createElement('p');
@@ -17,18 +16,18 @@ fetch('data.json')
             aboutText.appendChild(p);
         });
 
-        // Skills Section
+        
         const skillsSection = document.getElementById('skills-section');
         
-        // Frontend Skills
+        // Skills
         const frontendDiv = createSkillCategory('Front-end', data.about.skills.frontend);
         skillsSection.appendChild(frontendDiv);
         
-        // Backend Skills
+        
         const backendDiv = createSkillCategory('Back-end', data.about.skills.backend);
         skillsSection.appendChild(backendDiv);
         
-        // Other Skills
+        
         const otherDiv = createSkillCategory('Outras Habilidades', data.about.skills.other);
         skillsSection.appendChild(otherDiv);
 
@@ -54,7 +53,7 @@ fetch('data.json')
     })
     .catch(error => console.error('Error loading data:', error));
 
-// Helper function to create skill category
+// Skill category
 function createSkillCategory(title, skills) {
     const div = document.createElement('div');
     div.className = 'skill-category';
@@ -78,7 +77,7 @@ function createSkillCategory(title, skills) {
     return div;
 }
 
-// Helper function to create project card
+// Project card
 function createProjectCard(project) {
     const card = document.createElement('div');
     card.className = 'project-card';
@@ -104,7 +103,7 @@ function createProjectCard(project) {
     p.textContent = project.description;
     infoDiv.appendChild(p);
     
-    // Technologies
+    
     const techDiv = document.createElement('div');
     techDiv.className = 'project-tech';
     project.technologies.forEach(tech => {
@@ -115,7 +114,7 @@ function createProjectCard(project) {
     });
     infoDiv.appendChild(techDiv);
     
-    // Links
+    
     const linksDiv = document.createElement('div');
     linksDiv.className = 'project-links';
     for (const [type, url] of Object.entries(project.links)) {
@@ -139,7 +138,7 @@ function createProjectCard(project) {
     return card;
 }
 
-// Helper function to get social icon class
+// Social icon class
 function getSocialIconClass(platform) {
     switch (platform) {
         case 'GitHub': return 'fab fa-github';
@@ -167,7 +166,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Smooth scrolling for anchor links
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -195,7 +194,7 @@ contactForm.addEventListener('submit', function(e) {
 // Update copyright year
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Typewriter effect
+
 const typewriterTexts = ['Desenvolvedor Full Stack', 'Especialista em JavaScript', 'Entusiasta de IA', 'Contribuidor Open Source'];
 let currentTextIndex = 0;
 let charIndex = 0;
