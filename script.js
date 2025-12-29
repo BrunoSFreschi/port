@@ -38,6 +38,13 @@ fetch('data.json')
             projectsGrid.appendChild(projectCard);
         });
 
+        // Articles Section
+        const articlesGrid = document.getElementById(`articles-grid`);
+        data.articles.forEach(articles => {
+            const articleCard = createArticleCard(articles);
+            articlesGrid.appendChild(articleCard);
+        });
+
         // Social Links
         const socialLinks = document.getElementById('social-links');
         for (const [platform, url] of Object.entries(data.social)) {
@@ -76,6 +83,69 @@ function createSkillCategory(title, skills) {
     div.appendChild(skillsDiv);
     return div;
 }
+
+
+// Article card
+function createArticleCard(articles) {
+    const card = document.createElement('div');
+    card.className = 'articles-card';
+    
+    // articles Image
+    const imageDiv = document.createElement('div');
+    imageDiv.className = 'articles-image';
+    const img = document.createElement('img');
+    img.src = articles.image;
+    img.alt = articles.name;
+    imageDiv.appendChild(img);
+    card.appendChild(imageDiv);
+    
+    // articles Info
+    const infoDiv = document.createElement('div');
+    infoDiv.className = 'articles-info';
+    
+    const h3 = document.createElement('h3');
+    h3.textContent = articles.name;
+    infoDiv.appendChild(h3);
+    
+    const p = document.createElement('p');
+    p.textContent = articles.description;
+    infoDiv.appendChild(p);
+    
+    
+    const techDiv = document.createElement('div');
+    techDiv.className = 'articles-tech';
+    articles.technologies.forEach(tech => {
+        const span = document.createElement('span');
+        span.className = 'tech mono';
+        span.textContent = tech;
+        techDiv.appendChild(span);
+    });
+    infoDiv.appendChild(techDiv);
+    
+    
+    const linksDiv = document.createElement('div');
+    linksDiv.className = 'articles-links';
+    for (const [type, url] of Object.entries(articles.links)) {
+        if (url) {
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            
+            if (type === 'code') {
+                a.innerHTML = '<i class="fa-regular fa-file-code"></i> Artigo';
+            } else if (type === 'demo') {
+                a.innerHTML = '<i class="fas fa-external-link-alt"></i> Demo';
+            }
+            
+            linksDiv.appendChild(a);
+        }
+    }
+    infoDiv.appendChild(linksDiv);
+    
+    card.appendChild(infoDiv);
+    return card;
+}
+
 
 // Project card
 function createProjectCard(project) {
@@ -138,15 +208,16 @@ function createProjectCard(project) {
     return card;
 }
 
+
 // Social icon class
 function getSocialIconClass(platform) {
     switch (platform) {
         case 'GitHub': return 'fab fa-github';
         case 'LinkedIn': return 'fab fa-linkedin';
-        case 'Twitter': return 'fab fa-twitter';
         case 'Email': return 'fas fa-envelope';
         case 'Dev.to': return 'fab fa-dev';
         case 'Spotify': return 'fab fa-spotify';
+        case 'Twitter': return 'fab fa-twitter'; //<i class="fa-brands fa-x-twitter"></i>
         default: return 'fas fa-link';
     }
 }
@@ -158,6 +229,7 @@ const navLinks = document.querySelector('.nav-links');
 menuBtn.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
+
 
 // Close mobile menu when clicking on a link
 document.querySelectorAll('.nav-links a').forEach(link => {
@@ -183,19 +255,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission
-const contactForm = document.getElementById('contactForm');
-contactForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Mensagem enviada com sucesso! Entrarei em contato em breve.');
-    contactForm.reset();
-});
 
 // Update copyright year
 document.getElementById('year').textContent = new Date().getFullYear();
 
 
-const typewriterTexts = ['Desenvolvedor Full Stack', 'Especialista em JavaScript', 'Entusiasta de IA', 'Contribuidor Open Source'];
+const typewriterTexts = ['Desenvolvedor Full Stack', 'Especialista em c-sharp', 'Entusiasta de IA', 'Contribuidor Open Source'];
 let currentTextIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
