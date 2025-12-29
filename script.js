@@ -132,7 +132,7 @@ function createArticleCard(articles) {
             a.target = '_blank';
             
             if (type === 'code') {
-                a.innerHTML = '<i class="fa-regular fa-file-code"></i> Artigo';
+                a.innerHTML = '<i class="fas fa-external-link-alt"></i> Artigo';
             } else if (type === 'demo') {
                 a.innerHTML = '<i class="fas fa-external-link-alt"></i> Demo';
             }
