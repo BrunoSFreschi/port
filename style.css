@@ -2,6 +2,7 @@
     --bg-primary: #1e1e1e;
     --bg-secondary: #252526;
     --bg-tertiary: #2d2d2d;
+    --bg-black: #000000;
     --text-primary: #d4d4d4;
     --text-secondary: #9cdcfe;
     --text-tertiary: #ce9178;
@@ -37,7 +38,7 @@ body {
 
 /* Header */
 header {
-    background-color: var(--bg-primary);
+    background-color: var(--bg-black);
     padding: 20px 0;
     border-bottom: 1px solid var(--border-color);
     position: fixed;
@@ -466,7 +467,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: var(--bg-primary);
+    background-color: var(--bg-black);
     padding: 30px 0;
     text-align: center;
     border-top: 1px solid var(--border-color);
