@@ -22,16 +22,27 @@
     "social": {
       "GitHub": "https://github.com/BrunoSFreschi",
       "LinkedIn": "https://www.linkedin.com/in/bruno-s-freschi-b61464206/",
-      "Twitter": "https://twitter.com/",
+      "Twitter": "",
       "Dev.to": "https://dev.to/bruno_freschi",
       "Daily.dev": "https://app.daily.dev/brunosfreschi",
-      "Spotify": "https://open.spotify.com/user/brunosfreschi"
+      "Spotify": "https://open.spotify.com/user/brunosfresch"
     },
+    "articles": [
+      {
+        "name": "First post",
+        "description": "A intenção aqui é simplesmente validar a funcionalidade da plataforma, testar configurações de exibição e verificar se tudo está funcionando corretamente.",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fije7x1687055lshk1jrc.png",
+        "technologies": ["Teste", "Ajuda", "Rascunho"],
+        "links": {
+          "code": "https://dev.to/bruno_freschi/first-post-1hpn"
+        }
+      }
+    ],
     "projects": [
       {
         "name": "Central Dev",
         "description": "Este repositório foi criado para ser uma central de conteúdo organizada, reunindo materiais úteis para desenvolvedores.",
-        "image": "https://private-user-images.githubusercontent.com/89789210/530603233-7c548ff7-6502-420c-9d2d-bef4025e1584.webp?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5ODAxNjIsIm5iZiI6MTc2Njk3OTg2MiwicGF0aCI6Ii84OTc4OTIxMC81MzA2MDMyMzMtN2M1NDhmZjctNjUwMi00MjBjLTlkMmQtYmVmNDAyNWUxNTg0LndlYnA_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIyOVQwMzQ0MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZjU4M2VhMGRkMTk4ZmZlZGM5ZjcyMTk3ZGEwYWFiZmU1YWM0NjA0ZmZlZDJmOWZkZmZkMTFmYTEyNjhkYjJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.7D3qdveNn0RJoWmWeuZS4PffUThsurZWFiTl_pzertI",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/central.webp",
         "technologies": ["Documentação", "Ajuda", "Biblioteca de Recursos"],
         "links": {
           "code": "https://github.com/BrunoSFreschi/central-dev"
@@ -40,7 +51,7 @@
       {
         "name": "WebBrowser WPF",
         "description": "Este projeto implementa um navegador web básico com interface limpa, pensado para ser browser estilo neoVim.",
-        "image": "https://private-user-images.githubusercontent.com/89789210/530604892-067adbc9-6182-4e4b-96b5-f8138b97ed6a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5ODExMDQsIm5iZiI6MTc2Njk4MDgwNCwicGF0aCI6Ii84OTc4OTIxMC81MzA2MDQ4OTItMDY3YWRiYzktNjE4Mi00ZTRiLTk2YjUtZjgxMzhiOTdlZDZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDA0MDAwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFkZDJlZGZmZTY3OTY4NTA4MzI4ODhjOGU4NGIxOGM5N2NhODUxZTUwOWQ0NzUxODU0OWYwMDgxZDc0Nzg5ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.k4dk5i026VFy-gtco06lm-NpcMvAPZPSGm3ZcxAc3BU",
+        "image": "https://github.com/BrunoSFreschi/port/blob/main/assets/img/webv.png?raw=true",
         "technologies": ["C#", ".NET", "WPF", "Browser", "WebView2"],
         "links": {
           "code": "https://github.com/BrunoSFreschi/Browser-WPF"
@@ -49,7 +60,7 @@
       {
         "name": "API com RabbitMQ",
         "description": "Um projeto como objetivo demonstrar uma implementação simples e funcional de uma Minimal API que envia mensagens para uma fila no RabbitMQ, além de um serviço consumidor que processa essas mensagens.",
-        "image": "https://private-user-images.githubusercontent.com/89789210/530606102-e7c8cbed-b09d-4e7d-9715-c0687720b680.webp?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5ODE1MjgsIm5iZiI6MTc2Njk4MTIyOCwicGF0aCI6Ii84OTc4OTIxMC81MzA2MDYxMDItZTdjOGNiZWQtYjA5ZC00ZTdkLTk3MTUtYzA2ODc3MjBiNjgwLndlYnA_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIyOVQwNDA3MDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMWI5MTQ4YTVjZDIyZjk4OGU3NWVlNjVjYjZkMmE3OTBlYTAwZTkyY2I1ZTlmZDNhMDU5OWQ5ZGViZmU5NzU0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._z4kra_yigdwbaYuucwbzhMPY4khbYFpDtUTOwsuWfY",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rabbit.webp",
         "technologies": ["C#", ".NET 7+", "RabbitMQ", "Docker", "Minimal API"],
         "links": {
           "code": "https://github.com/BrunoSFreschi/Study.RabbitMQ",
@@ -59,7 +70,7 @@
       {
         "name": "Rust API",
         "description": "Este é um projeto inicial e prático criado para aprender e explorar os fundamentos de construção de uma API REST utilizando a linguagem Rust e o framework web Axum.",
-        "image": "https://private-user-images.githubusercontent.com/89789210/530610728-2ab60970-4462-425a-ad33-5ac355729d06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5ODI4MDEsIm5iZiI6MTc2Njk4MjUwMSwicGF0aCI6Ii84OTc4OTIxMC81MzA2MTA3MjgtMmFiNjA5NzAtNDQ2Mi00MjVhLWFkMzMtNWFjMzU1NzI5ZDA2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDA0MjgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgxMDMwZTJhZTczNjAyMDc2ZDRkYjQyNjg1YmI3YTcxMTgyNGFmMTAyMmE0ZTU0YWI4ODRhYWJjNzFkNjkyZjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ds0ldPiAjjJ6DViRTebzMVKy7guMz7NIVV618Sp-7gA",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rust.png",
         "technologies": ["rust", "Axum", "API", "tokio"],
         "links": {
           "code": "https://github.com/BrunoSFreschi/rust_api/blob/main/README.md",
@@ -69,7 +80,7 @@
       {
         "name": "Magic Transfer",
         "description": "O projeto foi desenvolvido como um modelo ETL (Extract, Transform, Load) para a análise e extração da estrutura de um banco de dados SQL Server. Ele é projetado para coletar informações sobre tabelas, colunas e chaves estrangeiras, transformá-las em um formato JSON.",
-        "image": "https://private-user-images.githubusercontent.com/89789210/530607366-0d7a6cc3-6fd5-44be-a9ce-644424b2934a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5ODE5NDEsIm5iZiI6MTc2Njk4MTY0MSwicGF0aCI6Ii84OTc4OTIxMC81MzA2MDczNjYtMGQ3YTZjYzMtNmZkNS00NGJlLWE5Y2UtNjQ0NDI0YjI5MzRhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDA0MTQwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE4ZmM2ZmMzYmU3NDBiNzJiMjVmMTdkNWYwMTM5MjBkYTk1NWU2ZmQ3M2MzN2E2YmM1ZTcxOTQ1YTIxZjdmMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Pvl8Drd18S4pQ6wwBGNAqc5hZrE5b-EeoAppkrlVrMk",
+        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/etl.png",
         "technologies": ["C#", "SqlServer", "Json", "ETL"],
         "links": {
           "code": "https://github.com/BrunoSFreschi/MagicTransferApp/blob/main/README.md",
