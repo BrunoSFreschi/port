@@ -1,91 +1,181 @@
 {
-    "personal": {
-      "name": "Bruno S. Freschi",
-      "role": "Desenvolvedor Full Stack",
-      "description": "Desenvolvedor movido a desafios, acredito que boas práticas salvam projetos — e finais de semana também.",
-      "image": "https://avatars.githubusercontent.com/u/89789210?v=4",
-      "email": "bruno@example.com"
-    },
-    "about": {
-      "paragraphs": [
-        "Olá! Meu nome é Bruno e sou um desenvolvedor full stack com experiência em diversas tecnologias modernas.",
-        "Ainda jovem, comecei a programar para automatizar tarefas simples. O resultado? Uma curiosidade que só aumentou e me trouxe até aqui.",
-        "Atualmente, me concentro em criar aplicações robustas e escaláveis, sempre buscando aprender novas tecnologias e melhorar minhas habilidades.",
-        "Busco aprimoramento contínuo por meio de conteúdo técnico, projetos autorais e colaboração em projetos open source."
-      ],
-      "skills": {
-        "frontend": ["TypeScript", "React", "Angular", "HTML/CSS", "Tailwind"],
-        "backend": ["C#", ".NET", "rust", "Node.js", "JavaScript"],
-        "other": ["Git", "Docker", "PostgreSQL", "MongoDB", "RabbitMQ", "Linux", "Sql Server", "MySql"]
-      }
-    },
-    "social": {
-      "GitHub": "https://github.com/BrunoSFreschi",
-      "LinkedIn": "https://www.linkedin.com/in/bruno-s-freschi-b61464206/",
-      "Twitter": "",
-      "Dev.to": "https://dev.to/bruno_freschi",
-      "Daily.dev": "https://app.daily.dev/brunosfreschi",
-      "Spotify": ""
-    },
-    "articles": [
-      {
-        "name": "First post",
-        "description": "A intenção aqui é simplesmente validar a funcionalidade da plataforma, testar configurações de exibição e verificar se tudo está funcionando corretamente.",
-        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fije7x1687055lshk1jrc.png",
-        "technologies": ["Teste", "Ajuda", "Rascunho"],
-        "links": {
-          "code": "https://dev.to/bruno_freschi/first-post-1hpn"
-        }
-      }
+  "personal": {
+    "name": "Bruno S. Freschi",
+    "role": "Desenvolvedor Full Stack",
+    "description": "Desenvolvedor movido a desafios, acredito que boas práticas salvam projetos — e finais de semana também.",
+    "image": "https://avatars.githubusercontent.com/u/89789210?v=4",
+    "email": "bruno@example.com"
+  },
+  "about": {
+    "paragraphs": [
+      "Olá! Meu nome é Bruno e sou um desenvolvedor full stack com experiência em diversas tecnologias modernas.",
+      "Ainda jovem, comecei a programar para automatizar tarefas simples. O resultado? Uma curiosidade que só aumentou e me trouxe até aqui.",
+      "Atualmente, me concentro em criar aplicações robustas e escaláveis, sempre buscando aprender novas tecnologias e melhorar minhas habilidades.",
+      "Busco aprimoramento contínuo por meio de conteúdo técnico, projetos autorais e colaboração em projetos open source."
     ],
-    "projects": [
-      {
-        "name": "Central Dev",
-        "description": "Este repositório foi criado para ser uma central de conteúdo organizada, reunindo materiais úteis para desenvolvedores.",
-        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/central.webp",
-        "technologies": ["Documentação", "Ajuda", "Biblioteca de Recursos"],
-        "links": {
-          "code": "https://github.com/BrunoSFreschi/central-dev"
-        }
-      },
-      {
-        "name": "WebBrowser WPF",
-        "description": "Este projeto implementa um navegador web básico com interface limpa, pensado para ser browser estilo neoVim.",
-        "image": "https://github.com/BrunoSFreschi/port/blob/main/assets/img/webv.png?raw=true",
-        "technologies": ["C#", ".NET", "WPF", "Browser", "WebView2"],
-        "links": {
-          "code": "https://github.com/BrunoSFreschi/Browser-WPF"
-        }
-      },
-      {
-        "name": "API com RabbitMQ",
-        "description": "Um projeto como objetivo demonstrar uma implementação simples e funcional de uma Minimal API que envia mensagens para uma fila no RabbitMQ, além de um serviço consumidor que processa essas mensagens.",
-        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rabbit.webp",
-        "technologies": ["C#", ".NET 7+", "RabbitMQ", "Docker", "Minimal API"],
-        "links": {
-          "code": "https://github.com/BrunoSFreschi/Study.RabbitMQ",
-          "demo": "https://taskmanager-bruno.vercel.app/"
-        }
-      },
-      {
-        "name": "Rust API",
-        "description": "Este é um projeto inicial e prático criado para aprender e explorar os fundamentos de construção de uma API REST utilizando a linguagem Rust e o framework web Axum.",
-        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rust.png",
-        "technologies": ["rust", "Axum", "API", "tokio"],
-        "links": {
-          "code": "https://github.com/BrunoSFreschi/rust_api/blob/main/README.md",
-          "demo": "https://taskmanager-bruno.vercel.app/"
-        }
-      },
-      {
-        "name": "Magic Transfer",
-        "description": "O projeto foi desenvolvido como um modelo ETL (Extract, Transform, Load) para a análise e extração da estrutura de um banco de dados SQL Server. Ele é projetado para coletar informações sobre tabelas, colunas e chaves estrangeiras, transformá-las em um formato JSON.",
-        "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/etl.png",
-        "technologies": ["C#", "SqlServer", "Json", "ETL"],
-        "links": {
-          "code": "https://github.com/BrunoSFreschi/MagicTransferApp/blob/main/README.md",
-          "demo": "https://taskmanager-bruno.vercel.app/"
-        }
+    "skills": {
+      "frontend": [
+        "TypeScript",
+        "React",
+        "Angular",
+        "HTML/CSS",
+        "Tailwind"
+      ],
+      "backend": [
+        "C#",
+        ".NET",
+        "rust",
+        "Node.js",
+        "JavaScript"
+      ],
+      "other": [
+        "Git",
+        "Docker",
+        "PostgreSQL",
+        "MongoDB",
+        "RabbitMQ",
+        "Linux",
+        "Sql Server",
+        "MySql"
+      ]
+    }
+  },
+  "social": {
+    "GitHub": "https://github.com/BrunoSFreschi",
+    "LinkedIn": "https://www.linkedin.com/in/bruno-s-freschi-b61464206/",
+    "Twitter": "",
+    "Dev.to": "https://dev.to/bruno_freschi",
+    "Daily.dev": "https://app.daily.dev/brunosfreschi",
+    "Spotify": ""
+  },
+  "articles": [
+    {
+      "name": "First post",
+      "description": "A intenção aqui é simplesmente validar a funcionalidade da plataforma, testar configurações de exibição e verificar se tudo está funcionando corretamente.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fije7x1687055lshk1jrc.png",
+      "technologies": [
+        "Teste",
+        "Ajuda",
+        "Rascunho"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/first-post-1hpn"
       }
-    ]
-  }
+    },
+    {
+      "name": "Seu código é Orientado a Objetos",
+      "description": "Vamos tocar na ferida: o que mais existe por aí é o famoso Código de Estimação. Aquele código empacotado em classes, cheio de getters e setters para todo lado, mas sem um pingo de inteligência ou comportamento real.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhrr1qlq9bf938mvuzi9u.png",
+      "technologies": [
+        "Artigo",
+        "Orientação a Objetos",
+        "Boas Práticas"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/seu-codigo-e-orientado-a-objetos-e5e"
+      }
+    },
+    {
+      "name": "Abstração (O Arquiteto de Soluções)",
+      "description": "Você já sentiu que seu código está virando um emaranhado de funções, mesmo usando classes? Muitas vezes, o problema não é a linguagem ou o framework, mas a falta de um conceito fundamental que separa os digitadores de código dos arquitetos de software: a Abstração.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjyhnk5garxti5zetetzu.png",
+      "technologies": [
+        "Artigo",
+        "Orientação a Objetos",
+        "Boas Práticas"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/poo-alem-do-codigo-1-abstracao-o-arquiteto-de-solucoes-500m"
+      }
+    },
+    {
+      "name": "Encapsulamento (A Caixa Preta)",
+      "description": "Um objeto deve ser responsável por manter seu próprio estado e proteger sua integridade.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwppnbfng7nsx50zn58fk.png",
+      "technologies": [
+        "Artigo",
+        "Orientação a Objetos",
+        "Boas Práticas"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/poo-alem-do-codigo-2-encapsulamento-a-caixa-preta-p05"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Central Dev",
+      "description": "Este repositório foi criado para ser uma central de conteúdo organizada, reunindo materiais úteis para desenvolvedores.",
+      "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/central.webp",
+      "technologies": [
+        "Documentação",
+        "Ajuda",
+        "Biblioteca de Recursos"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/central-dev"
+      }
+    },
+    {
+      "name": "WebBrowser WPF",
+      "description": "Este projeto implementa um navegador web básico com interface limpa, pensado para ser browser estilo neoVim.",
+      "image": "https://github.com/BrunoSFreschi/port/blob/main/assets/img/webv.png?raw=true",
+      "technologies": [
+        "C#",
+        ".NET",
+        "WPF",
+        "Browser",
+        "WebView2"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/Browser-WPF"
+      }
+    },
+    {
+      "name": "API com RabbitMQ",
+      "description": "Um projeto como objetivo demonstrar uma implementação simples e funcional de uma Minimal API que envia mensagens para uma fila no RabbitMQ, além de um serviço consumidor que processa essas mensagens.",
+      "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rabbit.webp",
+      "technologies": [
+        "C#",
+        ".NET 7+",
+        "RabbitMQ",
+        "Docker",
+        "Minimal API"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/Study.RabbitMQ",
+        "demo": "https://taskmanager-bruno.vercel.app/"
+      }
+    },
+    {
+      "name": "Rust API",
+      "description": "Este é um projeto inicial e prático criado para aprender e explorar os fundamentos de construção de uma API REST utilizando a linguagem Rust e o framework web Axum.",
+      "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rust.png",
+      "technologies": [
+        "rust",
+        "Axum",
+        "API",
+        "tokio"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/rust_api/blob/main/README.md",
+        "demo": "https://taskmanager-bruno.vercel.app/"
+      }
+    },
+    {
+      "name": "Magic Transfer",
+      "description": "O projeto foi desenvolvido como um modelo ETL (Extract, Transform, Load) para a análise e extração da estrutura de um banco de dados SQL Server. Ele é projetado para coletar informações sobre tabelas, colunas e chaves estrangeiras, transformá-las em um formato JSON.",
+      "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/etl.png",
+      "technologies": [
+        "C#",
+        "SqlServer",
+        "Json",
+        "ETL"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/MagicTransferApp/blob/main/README.md",
+        "demo": "https://taskmanager-bruno.vercel.app/"
+      }
+    }
+  ]
+}
