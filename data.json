@@ -36,7 +36,16 @@
         "links": {
           "code": "https://dev.to/bruno_freschi/first-post-1hpn"
         }
-      }
+      },
+      {
+        "name": "Seu código é Orientado a Objetos",
+        "description": "Vamos tocar na ferida: o que mais existe por aí é o famoso "Código de Estimação". Aquele código empacotado em classes, cheio de getters e setters para todo lado, mas sem um pingo de inteligência ou comportamento real.",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhrr1qlq9bf938mvuzi9u.png",
+        "technologies": ["Estudo", "Ajuda", "Rascunho", "Artigo"],
+        "links": {
+          "code": "https://dev.to/bruno_freschi/seu-codigo-e-orientado-a-objetos-e5e"
+        }
+      },
     ],
     "projects": [
       {
