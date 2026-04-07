@@ -209,6 +209,36 @@
         "code": "https://github.com/BrunoSFreschi/MagicTransferApp/blob/main/README.md",
         "demo": "https://taskmanager-bruno.vercel.app/"
       }
+    },
+    {
+      "name": "Blueprint-OOP",
+      "description": "Um guia prático de Programação Orientada a Objetos (POO), conectando fundamentos técnicos à evolução histórica da engenharia de software (1970-2000).",
+      "image": "https://private-user-images.githubusercontent.com/89789210/574820047-20fe333f-b710-4627-95bd-4619bf9e99e9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU1ODEwMTQsIm5iZiI6MTc3NTU4MDcxNCwicGF0aCI6Ii84OTc4OTIxMC81NzQ4MjAwNDctMjBmZTMzM2YtYjcxMC00NjI3LTk1YmQtNDYxOWJmOWU5OWU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA3VDE2NTE1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4N2M3YWIxNjg5ODMxZDFmMDMyOTIyZWM5MjdkYzQ4NTY3MTEzZWU3YTAyOGViNGIxYTU2NmI5M2UwYmRiODEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nQP1rF9At252VJPyCmBBLuincb38g_IJCv-XM9J4TvE",
+      "technologies": [
+        "POO",
+        "Polimorfismo",
+        "Abstração",
+        "Encapsulamento",
+        "Herança"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/Blueprint-OOP"
+      }
+    },
+    {
+      "name": "DataAccess Benchmark",
+      "description": "DataAccess Benchmark é um laboratório de engenharia de software criado para analisar, o custo das diferentes abordagens de acesso a dados no ecossistema .NET.",
+      "image": "https://private-user-images.githubusercontent.com/89789210/574823833-e1d506d3-9daf-43e0-88a6-4ec48eb38abb.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU1ODEzODAsIm5iZiI6MTc3NTU4MTA4MCwicGF0aCI6Ii84OTc4OTIxMC81NzQ4MjM4MzMtZTFkNTA2ZDMtOWRhZi00M2UwLTg4YTYtNGVjNDhlYjM4YWJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA3VDE2NTgwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVmZGY2MmIxNTU0YzQ0NWNiMjVmYjhjOTU5M2Y1YTJhZjM0NWI2MzcyZTFhYmRiYmE1MzkzMDJjMzVjYzUzNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.pqQ3_GDrOvM4RVewIDIi0GKii64n7Uz4lqCmiiUisBI",
+      "technologies": [
+        "POO",
+        "Polimorfismo",
+        "Abstração",
+        "Encapsulamento",
+        "Herança"
+      ],
+      "links": {
+        "code": "https://github.com/BrunoSFreschi/DataAccess.Benchmark"
+      }
     }
   ]
 }
