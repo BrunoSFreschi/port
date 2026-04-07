@@ -69,7 +69,8 @@
       "technologies": [
         "Artigo",
         "Orientação a Objetos",
-        "Boas Práticas"
+        "Boas Práticas",
+        "Base de Conhecimento"
       ],
       "links": {
         "code": "https://dev.to/bruno_freschi/seu-codigo-e-orientado-a-objetos-e5e"
@@ -95,10 +96,41 @@
       "technologies": [
         "Artigo",
         "Orientação a Objetos",
-        "Boas Práticas"
+        "Boas Práticas",
+        "Encapsulamento"
       ],
       "links": {
         "code": "https://dev.to/bruno_freschi/poo-alem-do-codigo-2-encapsulamento-a-caixa-preta-p05"
+      }
+    },
+    {
+      "name": "Herança e Composição (A Estrutura)",
+      "description": "A herança diz o que um objeto É, a composição diz o que um objeto TEM.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftj3ozqxs588vyu0rsdco.png",
+      "technologies": [
+        "Herança",
+        "Artigo",
+        "Orientação a Objetos",
+        "Boas Práticas",
+        "Composição"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/poo-alem-do-codigo-3-heranca-e-composicao-a-estrutura-216f"
+      }
+    },
+    {
+      "name": "Polimorfismo (A Versatilidade)",
+      "description": "A capacidade de tratar diferentes objetos através de uma interface comum.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhvpbojn6i6ofvze0zlmm.png",
+      "technologies": [
+        "Polimorfismo",
+        "Artigo",
+        "Orientação a Objetos",
+        "Boas Práticas",
+        "Flexibilidade"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/poo-alem-do-codigo-4-polimorfismo-a-versatilidade-2moe"
       }
     }
   ],
@@ -110,7 +142,8 @@
       "technologies": [
         "Documentação",
         "Ajuda",
-        "Biblioteca de Recursos"
+        "Biblioteca de Recursos",
+        "Organização de Conteúdo"
       ],
       "links": {
         "code": "https://github.com/BrunoSFreschi/central-dev"
