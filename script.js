@@ -53,6 +53,7 @@ fetch('data.json')
                 const a = document.createElement('a');
                 a.href = url;
                 a.target = '_blank';
+                a.setAttribute('aria-label', platform);
                 a.innerHTML = `<i class="${iconClass}"></i>`;
                 socialLinks.appendChild(a);
             }
