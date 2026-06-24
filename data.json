@@ -24,7 +24,7 @@
       "backend": [
         "C#",
         ".NET",
-        "rust",
+        "Rust",
         "Node.js",
         "JavaScript"
       ],
@@ -46,7 +46,7 @@
     "Twitter": "",
     "Dev.to": "https://dev.to/bruno_freschi",
     "Daily.dev": "https://app.daily.dev/brunosfreschi",
-    "Spotify": ""
+    "He4rtDevs": "https://heartdevs.com/app/profile"
   },
   "articles": [
     {
@@ -199,7 +199,7 @@
       "description": "Este é um projeto inicial e prático criado para aprender e explorar os fundamentos de construção de uma API REST utilizando a linguagem Rust e o framework web Axum.",
       "image": "https://raw.githubusercontent.com/BrunoSFreschi/port/refs/heads/main/assets/img/rust.png",
       "technologies": [
-        "rust",
+        "Rust",
         "Axum",
         "API",
         "tokio"
@@ -242,11 +242,12 @@
       "description": "DataAccess Benchmark é um laboratório de engenharia de software criado para analisar, o custo das diferentes abordagens de acesso a dados no ecossistema .NET.",
       "image": "assets/img/banch.png",
       "technologies": [
-        "POO",
-        "Polimorfismo",
-        "Abstração",
-        "Encapsulamento",
-        "Herança"
+        "Databases",
+        "ETL",
+        "C#",
+        "ADO Net",
+        "Dapper",
+        "Entity Framework"
       ],
       "links": {
         "code": "https://github.com/BrunoSFreschi/DataAccess.Benchmark"
