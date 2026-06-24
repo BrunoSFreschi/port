@@ -132,6 +132,21 @@
       "links": {
         "code": "https://dev.to/bruno_freschi/poo-alem-do-codigo-4-polimorfismo-a-versatilidade-2moe"
       }
+    },
+    {
+      "name": "Do localhost para o mundo",
+      "description": "Por muito tempo eu acreditei que programação e desenvolvimento de software como sinônimos. Na prática, descobri que são habilidades diferentes.",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4xvklbuy7u6foyf22ir9.png",
+      "technologies": [
+        "localhost",
+        "Artigo",
+        "Desenvolvimento de Software",
+        "Carreira",
+        "Capacitação"
+      ],
+      "links": {
+        "code": "https://dev.to/bruno_freschi/do-localhost-para-o-mundo-2o44"
+      }
     }
   ],
   "projects": [
