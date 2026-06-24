@@ -49,12 +49,16 @@ fetch('data.json')
         const socialLinks = document.getElementById('social-links');
         for (const [platform, url] of Object.entries(data.social)) {
             if (url) {
-                const iconClass = getSocialIconClass(platform);
                 const a = document.createElement('a');
                 a.href = url;
                 a.target = '_blank';
                 a.setAttribute('aria-label', platform);
-                a.innerHTML = `<i class="${iconClass}"></i>`;
+                if (platform === 'He4rtDevs') {
+                    a.innerHTML = `<img src="assets/img/he4rt.ico" alt="He4rtDevs" style="width:1em;height:1em;vertical-align:middle;">`;
+                } else {
+                    const iconClass = getSocialIconClass(platform);
+                    a.innerHTML = `<i class="${iconClass}"></i>`;
+                }
                 socialLinks.appendChild(a);
             }
         }
