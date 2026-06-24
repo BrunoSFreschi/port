@@ -176,8 +176,7 @@
         "Minimal API"
       ],
       "links": {
-        "code": "https://github.com/BrunoSFreschi/Study.RabbitMQ",
-        "demo": "https://taskmanager-bruno.vercel.app/"
+        "code": "https://github.com/BrunoSFreschi/Study.RabbitMQ"
       }
     },
     {
@@ -191,8 +190,7 @@
         "tokio"
       ],
       "links": {
-        "code": "https://github.com/BrunoSFreschi/rust_api/blob/main/README.md",
-        "demo": "https://taskmanager-bruno.vercel.app/"
+        "code": "https://github.com/BrunoSFreschi/rust_api/blob/main/README.md"
       }
     },
     {
@@ -206,14 +204,13 @@
         "ETL"
       ],
       "links": {
-        "code": "https://github.com/BrunoSFreschi/MagicTransferApp/blob/main/README.md",
-        "demo": "https://taskmanager-bruno.vercel.app/"
+        "code": "https://github.com/BrunoSFreschi/MagicTransferApp/blob/main/README.md"
       }
     },
     {
       "name": "Blueprint-OOP",
       "description": "Um guia prático de Programação Orientada a Objetos (POO), conectando fundamentos técnicos à evolução histórica da engenharia de software (1970-2000).",
-      "image": "https://github.com/BrunoSFreschi/port/blob/main/assets/img/bluep.png",
+      "image": "assets/img/bluep.png",
       "technologies": [
         "POO",
         "Polimorfismo",
@@ -228,7 +225,7 @@
     {
       "name": "DataAccess Benchmark",
       "description": "DataAccess Benchmark é um laboratório de engenharia de software criado para analisar, o custo das diferentes abordagens de acesso a dados no ecossistema .NET.",
-      "image": "https://github.com/BrunoSFreschi/port/blob/main/assets/img/banch.png",
+      "image": "assets/img/banch.png",
       "technologies": [
         "POO",
         "Polimorfismo",
