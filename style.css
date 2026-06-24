@@ -452,7 +452,7 @@ h2 {
 }
 
 .contact-form {
-    max-width: 400px;
+    max-width: 30%;
     margin: 0 auto;
     background-color: var(--bg-primary);
     padding: 40px;
