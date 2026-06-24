@@ -368,6 +368,8 @@ h2 {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .articles-card:hover {
@@ -392,6 +394,9 @@ h2 {
 
 .articles-info {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .articles-info h3 {
@@ -423,6 +428,7 @@ h2 {
 .articles-links {
     display: flex;
     gap: 15px;
+    margin-top: auto;
 }
 
 .articles-links a {
